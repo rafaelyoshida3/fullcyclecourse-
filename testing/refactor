@@ -1,0 +1,18 @@
+package main
+
+func Repeat(character string) string {
+	var repeated string
+	var metrica string
+	metrica = "casamento"
+
+	for _, i := range character {
+		for _, j := range metrica {
+			if i == j {
+				repeated += i
+
+			}
+
+		}
+	}
+
+}
